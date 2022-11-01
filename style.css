@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+  background-image: linear-gradient(
+    to bottom,
+    yellow 0%,
+    white 50%,
+    white 50%,
+    red 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Multi", sans-serif;
+}
+
+heading {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-style: initial;
+  border-radius: 20px;
+}
+
+nav {
+  background-color: rgb(208, 249, 26);
+  background-image: linear-gradient(
+    to bottom,
+    red 0%,
+    white 50%,
+    white 50%,
+    yellow 100%
+  );
+  padding: 20px;
+  border-radius: 20px;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.6s linear;
+  overflow-x: hidden;
+}
